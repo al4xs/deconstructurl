@@ -21,10 +21,15 @@ site.com/directory/uploads/pdf/2023/file.pdf
 When using "deconstructorurl", it will deconstruct the url in descending order from right to left, so the output would be:
 
 site.com/directory/uploads/pdf/2023/file.pdf
+
 site.com/directory/uploads/pdf/2023/
+
 site.com/directory/uploads/pdf/
+
 site.com/directory/uploads/
+
 site.com/directory/
+
 site.com/
 
 # How to use
