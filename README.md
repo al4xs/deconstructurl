@@ -39,7 +39,7 @@ cat urls-with-paths.txt | deconstructurl
 
 you can also combine it with other existing tools
 ```
-echo "domain.com" | waybackurls | deconstructurl | anew
+echo "domain.com" | waybackurls | deconstructurl | httpx -title -td
 ```
 
 I hope this binary written in go helps you find vulnerabilities by stretching your crawler file.
